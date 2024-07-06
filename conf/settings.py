@@ -134,7 +134,7 @@ AWS_S3_OBJECT_PARAMETERS = {
 }
 
 # Media files configuration
-DEFAULT_FILE_STORAGE = 'config.storage.MediaStorage'
+DEFAULT_FILE_STORAGE = 'config.storage_backend.MediaStorage'
 
 STATIC_URL = 'static/'
 STATIC_ROOT = 'staticfiles'
